@@ -24,7 +24,7 @@
 				<option value="très difficile">Très difficile</option>
 			</select>
 		</div>
-		
+
 		<div>
 			<label for="distance">Distance</label>
 			<input type="text" name="distance" value="">

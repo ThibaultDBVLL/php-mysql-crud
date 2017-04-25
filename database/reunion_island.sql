@@ -32,3 +32,10 @@ CREATE TABLE IF NOT EXISTS `hiking` (
   `height_difference` int(6) NOT NULL COMMENT 'in m',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+INSERT INTO hiking(id, name, difficulty, distance, duration, height_difference );
+VALUES ("Canal Lemarchand", "Moyen", 2.4, 1.30, 120),
+       ("Tour du village de l'Entre Deux", "Moyen", 13.7, 4.30, 620),
+       ("Tour de l'Usine de Gol", "Facile", 9.2, 3, 90),
+       ("Tour de la Ravine de la Mare", "difficile", 14.5, 7, 1250),
+       ("Petite boucle à la ligne d'Equerre", "Facile", 1.9, 1, 100);
